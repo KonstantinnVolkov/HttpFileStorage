@@ -15,7 +15,7 @@ import java.io.File;
 @RequestMapping("/getInfo")
 public class FileInfoController {
 
-    private final String ROOT = "/home/konstantin/Work/testFolder";
+    private final String ROOT = "/home/konstantin/Work";
 
     @Autowired
     public FileInfoController(WorkWithFiles workWithFiles) {

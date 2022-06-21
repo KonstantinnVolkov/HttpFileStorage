@@ -19,7 +19,7 @@ import java.util.ArrayList;
 @RequestMapping("/getFiles")
 public class GetFilesController {
 
-    private final String ROOT = "/home/konstantin/Work/testFolder";
+    private final String ROOT = "/home/konstantin/Work";
 
     @Autowired
     public GetFilesController(WorkWithFiles workWithFiles) {
